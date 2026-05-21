@@ -8,4 +8,4 @@ while True:
     fun.menu()
     decision = int(input('Por favor escoja la opción que desea: '))
     respuesta, operacion, adjetivo = fun.calculadora(primer_numero,segundo_numero,decision)
-    print(f'{primer_numero} {operacion} {segundo_numero} = {respuesta}, {adjetivo if adjetivo else ""}')
+    print(f'{primer_numero} {operacion} {segundo_numero} = {respuesta}, {adjetivo}')
