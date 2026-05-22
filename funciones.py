@@ -25,7 +25,7 @@ def calculadora(numero1, numero2, opcion):
 
     return resultado, operacion, adjetivo
 
-def calculadora_notas():
+def calculadora_notas(nota1, nota2, nota3):
     resultado = (nota1 + nota2 + nota3) / 3
     print(f"""El promedio de sus notas:
 {nota1}
@@ -36,4 +36,8 @@ promediadas resultan en: {resultado: .1f}""")
         print("Usted reprobó")
     else:
         print("Usted aprobó!")
-    return resultado    
+    return resultado
+
+def cacho():
+    import random as rand
+    
