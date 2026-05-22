@@ -2,6 +2,9 @@
 # - te de el promedio ponderado 
 # - te entregue la respuesta si es que el alumno aprobo o reprobo
 # - el ramo se pasa con un 4.0 para arriba
+nota1 = float(input("Ingrese su primera nota: "))
+nota2 = float(input("Ingrese su segunda nota: "))
+nota3 = float(input("Ingrese su tercera nota: "))
 import funciones as fun
 fun.calculadora_notas()
 

@@ -26,10 +26,6 @@ def calculadora(numero1, numero2, opcion):
     return resultado, operacion, adjetivo
 
 def calculadora_notas():
-    nota1 = float(input("Ingrese su primera nota: "))
-    nota2 = float(input("Ingrese su segunda nota: "))
-    nota3 = float(input("Ingrese su tercera nota: "))
-
     resultado = (nota1 + nota2 + nota3) / 3
     print(f"""El promedio de sus notas:
 {nota1}
