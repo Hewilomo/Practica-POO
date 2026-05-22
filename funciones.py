@@ -4,8 +4,10 @@ def menu():
 2.- Restar
 3.- Multiplicar
 4.- Dividir''')
-
+    
+    
 def calculadora(numero1, numero2, opcion):
+    adjetivo = ''
     if opcion == 1: #suma
         resultado = numero1 + numero2
         operacion = "+" 
