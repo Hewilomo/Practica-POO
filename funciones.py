@@ -38,6 +38,10 @@ promediadas resultan en: {resultado: .1f}""")
         print("Usted aprobó!")
     return resultado
 
-def cacho():
+def cacho(dados_usuario, dados_cpu, decision):
     import random as rand
-    
+    dados_usuario = []
+    dados_cpu = []
+    if decision == "s":
+        for i in rand(range(1,6)):
+            print(i)
