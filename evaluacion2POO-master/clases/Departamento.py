@@ -12,7 +12,7 @@ class Departamento:
     
 #--------------------------------------------- METODOS ------------------------------------------------------------------
     def crearDepartamento(self, gerente):
-        nombre_departamento = input('Ingrese el nombre del departamento: ')
+        nombre_departamento = input('Ingrese el nombre del departamento: ') #Idealmente no debe haber inputs en los metodos :)
         empleados = [] #Aplicar logica mas adelante
         departamento_final = Departamento(nombre_departamento, empleados, gerente)
         return departamento_final
