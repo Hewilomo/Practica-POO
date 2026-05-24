@@ -1,11 +1,16 @@
 class Departamento:
-    def __init__(self, nombre, empleados = None, gerente = ''):
+#--------------------------------------------- ATRIBUTOS ---------------------------------------------------------------- 
+    #Cuando se crean clases siempre se parte con el def __init__
+    #El primer atributo siempre es el self
+    def __init__(self, nombre, empleados = None, gerente = ''): 
+    #Luego siempre se tiene que convertir los self.atributos en el atributo (self.atributo = atributo)
         self.nombre = nombre
         if empleados == None:
             self.empleados = []
         self.empleados = empleados
         self.gerente = gerente
     
+#--------------------------------------------- METODOS ------------------------------------------------------------------
     def crearDepartamento(self, gerente):
         nombre_departamento = input('Ingrese el nombre del departamento: ')
         empleados = [] #Aplicar logica mas adelante
