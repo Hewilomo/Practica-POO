@@ -1,3 +1,6 @@
+#ESTO AUN NO ES PROGRAMACION ORIENTADA AL OBJETO, SINO UN HIBRIDO ALEJADO DE LA MANO DE DIOS
+
+#atributos
 list_dic ={
         "nombre": "",
         "vida": "",
@@ -5,9 +8,11 @@ list_dic ={
         "inteligencia": "", 
         }
 
-nuevo_char = input('Ingrese su nombre: ')
-list_dic["nombre"] = nuevo_char
-print(list_dic)
+#metodos
+def crear_personaje(nombre, vida, ataquem, intelgiencia):
+    nuevo_char = input('Ingrese su nombre: ')
+    list_dic["nombre"] = nuevo_char
+    print(list_dic)
 
 #En base a este ejemplo crear un menu de creación de personaje 
 #Para practicar modificación de listas
