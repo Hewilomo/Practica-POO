@@ -9,7 +9,10 @@ nuevo_char = input('Ingrese su nombre: ')
 list_dic["nombre"] = nuevo_char
 print(list_dic)
 
-#En base a este ejemplo crear un menu de creación 
+#En base a este ejemplo crear un menu de creación de personaje 
+#Para practicar modificación de listas
+#Chamuyar para que el ejercicio se vea mas complejo
+#XOXO
 
 #getter tu obtienes datos para modificarlos en ESA instancia
 #setter tu privatizas los datos, haciendolos imposible de alterar y LEER si es que no lo permites
